@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/lay"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+
+        >
+
+
+        <ImageView
+            android:id="@+id/coverimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/skm"
+            android:scaleType="centerCrop"
+
+            />
+
+        <TextView
+            android:id="@+id/tittletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ঢাকা কলেজস্থ জয়পুরহাট ছাত্রকল্যাণের সভাপতি রোমান, সাধারণ সম্পাদক আফ্রিদি"
+            android:layout_alignParentBottom="true"
+            android:ellipsize="end"
+            android:background="#70000000"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp"
+            android:maxLines="2"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+
+            />
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay"
+        android:layout_alignParentBottom="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+
+            <TextView
+                android:id="@+id/destext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="start"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:text="রাজধানীর ঢাকা কলেজের জয়পুরহাট জেলা ছাত্রকল্যাণ পরিষদের ৪৮ সদস্যবিশিষ্ট কমিটি গঠন করা হয়েছে। কলেজটির ২০১৮-১৯ শিক্ষাবর্ষের শিক্ষার্থী মাহমুদ হাসান রোমানকে সভাপতি এবং একই শিক্ষাবর্ষের শিক্ষার্থী আফ্রিদি হাসানকে সাধারণ সম্পাদক হিসেবে মনোনিত করা হয়েছে।
+শনিবার (১৪ সেপ্টেম্বর) ঢাকা কলেজস্থ জয়পুরহাট জেলা ছাত্রকল্যাণ পরিষদের উপদেষ্টা মন্ডলীর পরামর্শক্রমে পূর্বের কমিটি বিলুপ্ত ঘোষণা করে আগামী এক বছরের জন্য পূর্ণাঙ্গ কমিটির অনুমোদন দেওয়া হয়।
+ছাত্রকল্যাণ পরিষদের কার্যক্রম সম্পর্কে উপদেষ্টা মন্ডলীর সদস্য জুয়েল হোসাইন পিয়াস বলেন, ঢাকা কলেজ দেশের অন্যতম একটি শিক্ষা প্রতিষ্ঠান, দেশের বিভিন্ন প্রান্ত থেকে শিক্ষা গ্রহণের জন্য অনেকেই মুখিয়ে থাকে ঢাকা কলেজের দিকে, আমাদের ছাত্র কল্যাণের উদ্দেশ্য আমাদের জেলার শিক্ষার্থীদের মাঝে বন্ধুত্বপূর্ণ সম্পর্ক গঠন করে একে অপরের বিপদে যাতে সহযোগিতা করতে পারে, এছাড়া নতুনদের অনুপ্রাণিত করতে নবীনবরণসহ নানান আয়োজন আমাদের এই ছাত্রকল্যাণ করে আসছে।
+উপদেষ্টা মন্ডলীর আরেক সদস্য মিফতাহুল ইসলাম সুইট বলেন, দীর্ঘ বেশ কয়েকবছর যাবৎ আমরা জয়পুরহাট ছাত্র কল্যাণের মাধ্যমে নানান ধরনের সামাজিক কার্যক্রম পরিচালনা করে আসছি, শিক্ষা সংস্কৃতি ও ভ্রাতৃত্বের এই উর্বর ভূমিতে সবাই যাতে মিলেমিশে থাকে এইটাই আমাদের লক্ষ্য।
+২০১৮ সালে প্রথম ঢাকা কলেজস্থ জয়পুরহাট জেলা ছাত্রকল্যাণ পরিষদ গঠিত হয়। সেখানে প্রতিষ্ঠাতা সভাপতি হিসেবে ছিলেন ফিরোজ হোসেন ফাহিম, সাধারণ সম্পাদক ছিলেন আহসান হাবিব ইমরান। এছাড়া মাহমুদুল হাসান রেজা, মেফতাহুল ইসলাম সুইট, জুয়েল হোসাইন পিয়াস, ইমতিয়ার আহমেদের হাত ধরে প্রথম আত্মপ্রকাশ ঘটে।
+ছাত্রকল্যাণ পরিষদের কার্যক্রম সম্পর্কে সদ্য দায়িত্বপ্রাপ্ত সভাপতি মাহমুদুল হাসান রোমান বলেন, প্রতি বছরই জয়পুরহাট থেকে অনেক শিক্ষার্থী ঢাকা কলেজে ভর্তি হয়, তাদের নানান সুযোগ সুবিধাসহ যেকোনো সমস্যার সমাধানে জয়পুরহাট ছাত্রকল্যাণ তাদের পাশে থাকবে। এ ছাড়া যারা নতুন আসছে তাদেরও দিক নির্দেশনামূলক নানান ধরনের প্রোগামের কথা আমাদের মাথায় রয়েছে।
+ছাত্রকল্যাণ পরিষদের কার্যক্রম সম্পর্কে সদ্য দায়িত্বপ্রাপ্ত সাধারণ সম্পাদক আফ্রিদি হাসান বলেন, জয়পুরহাটের শিক্ষার্থীদের জন্য এক আশ্রয়স্থল হয়ে উঠবে আমাদের এই সংগঠন, আমাদের এখানে যেহেতু একাদশ শ্রেণীর শিক্ষার্থীরাও রয়েছে তাদের নিয়েও আমাদের বিশেষ কিছু প্রোগাম থাকবে।
+ছাত্রকল্যাণ পরিষদের সহ-সভাপতি: জাহিদ হাসান, মিন্টু পাল, শাহরিয়ার অভি, আল আমিন ইসলাম।
+যুগ্ম সাধারণ সম্পাদক: ফাহিম শাহরিয়ার, আব্দুল্লাহ আল নোমান, রয়েল হোসেন নয়ন, রবি সজীব, আল আমিন।
+সাংগঠনিক সম্পাদক: ফারহান আদনান মাসুম, শামিম হোসাইন, সাদমান, মেজবাহ, মোস্তাফিজুর রহমান।
+এছাড়া দপ্তর সম্পাদক তাওহীদ ইসলাম সজীব, উপ-দপ্তর সম্পাদক জাহিদ হাসান, শিক্ষা ও গবেষণা সম্পাদক জাবেদ ওমর জয়, উপ গবেষণা সম্পাদক জুলফিকার হোসেন, প্রচার সম্পাদক মেহেদি হাসান মাসুম, উপ-প্রচার সম্পাদক আসিফ আল রাজি, রিফাত পারভেজ, তথ্য ও প্রযুক্তি সম্পাদক মোহাম্মদ হাফিজার, তথ্য ও প্রযুক্তি উপ সম্পাদক মোস্তাকিম, সাংস্কৃতিক বিষয়ক সম্পাদক সুমন রহমান, ছাত্র ও বৃত্তি বিষয়ক সম্পাদক তানভির আহমেদ, ছাত্র ও বৃত্তি বিষয়কসহ সম্পাদক মতিয়র রহমান, সমাজসেবা বিষয়ক সম্পাদক সিয়াম আহমেদ, সমাজসেবা বিষয়ক উপ সম্পাদক আরিফুর রহমান পারভেজ, সহ-সম্পাদক তানভীর আহমেদ, আবিদ শাহরিয়ার, আরিফুর রহমান পারভেজ, জাহিদ এবং আল কবির খান।"
+                android:textColor="#000000"
+
+
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:backgroundTint="#FF6E40"
+        android:src="@drawable/how"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</RelativeLayout>

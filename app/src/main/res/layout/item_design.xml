@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <LinearLayout
+        android:id="@+id/mainlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bottom_shade"
+        android:paddingBottom="10dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+
+        >
+
+        <ImageView
+            android:id="@+id/itemcover"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:layout_margin="5dp"
+
+            android:src="@drawable/skm" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="left|center"
+
+            >
+
+            <TextView
+                android:id="@+id/itemcat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAT"
+                android:background="#C9FF5852"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:layout_marginBottom="10dp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/itemtittle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="এইচএসসি পাসে ১৮ হাজার টাকা বেতনে চাকরি, আবেদন করতে পারবেন ফ্রেশাররাও"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:maxLines="2"
+                android:ellipsize="end"
+
+
+                />
+
+            <TextView
+                android:id="@+id/itemdes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="নিয়োগ বিজ্ঞপ্তি প্রকাশ করেছে সাজিদা ফাউন্ডেশন। প্রতিষ্ঠানটি অফিস অ্যাসিস্ট্যান্ট পদে জনবল নেবে। আগ্রহী প্রার্থীরা অনলাইনের মাধ্যমে আবেদন করতে পারবেন। আবেদনের শেষ সময় আগামী ২১ সেপ্টেম্বর। "
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
